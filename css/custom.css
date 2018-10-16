@@ -1,0 +1,102 @@
+.bg-primary {
+    background-color: #19B5FE!important;
+}
+hr.star-light:after {
+    color: #fff;
+    background-color: #19B5FE;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #19B5FE!important;
+}
+@media (min-width: 992px){
+	#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+		color: #fff;
+	    background: #19B5FE;
+	}
+}
+@media (min-width: 992px){
+	#mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+	    color: #fff;
+	    background: #19B5FE;
+	}
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    opacity: 0;
+    background-color: #19b5fecc;
+}
+.btn-primary {
+    background-color: #19B5FE;
+    border-color: #19B5FE;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #22A7F0;
+    border-color: #22A7F0;
+}
+a {
+    color: #19B5FE;
+}
+a:active, a:focus, a:hover {
+    color: #19B5FE;
+}
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #19B5FE!important;
+}
+.whatsapp-btn{
+	background:url(../img/whatsapp.png) no-repeat center center;
+	background-size: 50px;
+	background-color: #fff;
+}
+.whatsapp-btn {
+	cursor:pointer;
+	position:fixed;
+	bottom: 55px;
+	right: 10px;
+	display:block;
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	text-indent:-9999px;
+	background-size:50% auto;
+	box-shadow:0 20px 25px rgba(0,0,0,.05);
+	transition:.2s;
+	z-index: 1040;
+}
+.whatsapp-btn:active {
+	bottom:35px;
+}
+#whatsapp {
+	position:fixed;
+	z-index:+100;
+	bottom:0px;
+	right:0px;
+	display:block;
+	background:#fff;
+	box-shadow:0 20px 25px rgba(0,0,0,.05);
+	max-width:300px;
+	font-family:Helvetica, sans-serif;
+	font-size:90%;
+	border-radius:4px;
+	visibility:hidden;
+	opacity:0;
+	transition:.3s;
+}
+#whatsapp.toggle {
+  bottom: 40px;
+  right: 75px;
+	visibility:visible;
+	opacity:1;
+}
+@media(max-width:425px) {
+	.whatsapp-btn {
+		bottom:10px;
+		left:10px;
+	}
+	#whatsapp.toggle {
+		bottom:80px;
+		left:10px;
+		visibility:visible;
+		opacity:1;
+	}
+}
